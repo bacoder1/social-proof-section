@@ -20,7 +20,7 @@ export default function StarRating(props) {
         {Array(5)
           .fill(null)
           .map((_, index) => (
-            <img key={index} src={starIcon} alt="" />
+            <img key={index} src={starIcon} alt="" width={17} height={16} />
           ))}
       </div>
       <p className="text-lg">Rated 5 stars in {props.source}</p>
